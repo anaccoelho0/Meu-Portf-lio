@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfólio - Ana Clara Lopes Coelho da Silva</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffebf0;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        .profile-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ffb6c1;
+        }
+        .social-icons {
+            margin-top: 15px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            display: inline-block;
+        }
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s;
+        }
+        .social-icons img:hover {
+            transform: scale(1.2);
+        }
+        .card {
+            background: #fff0f5;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .container {
+            max-width: 900px;
+        }
+        .header-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #d63384;
+        }
+        .contact-form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .progress {
+            height: 20px;
+            border-radius: 10px;
+        }
+        .progress-bar.bg-success {
+            background-color: #ff69b4 !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container profile-container">
+        <img src="perfil.jpg" alt="Foto de Perfil" class="profile-img mb-3">
+        <h1 class="header-title">Ana Clara Lopes Coelho da Silva</h1>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ana-clara-lopes-070460232?trk=contact-info" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+            <a href="https://github.com/anaccoelho0" target="_blank"><img src="github.png" alt="GitHub"></a>
+            <a href="https://www.instagram.com/anaccl881/" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+        </div>
+    </div>
+    
+    <div class="container mt-4">
+        <h2 class="text-center text-secondary">Formações</h2>
+        <div class="card p-3">
+            <h5 class="card-title text-center text-danger">Graduações e Pós-Graduações</h5>
+            <ul>
+                <li>Engenharia Civil <div class="progress"><div class="progress-bar bg-success" style="width:100%">100%</div></div></li>
+                <li>Pós-Graduação em Arquitetura <div class="progress"><div class="progress-bar bg-success" style="width:100%">100%</div></div></li>
+                <li>Pós-Graduação em Geotecnia <div class="progress"><div class="progress-bar bg-success" style="width:100%">100%</div></div></li>
+                <li>Pós-Graduação em Topografia <div class="progress"><div class="progress-bar bg-success" style="width:100%">100%</div></div></li>
+                  <li>Engenharia de Automação <div class="progress"><div class="progress-bar bg-warning" style="width:50%">50%</div></div></li>
+            </ul>
+            <h5 class="card-title text-center text-danger mt-3">Formações Técnicas</h5>
+            <ul>
+                <li>Técnica em Desenvolvimento de Sistemas <div class="progress"><div class="progress-bar bg-success" style="width:100%">100%</div></div></li>
+                <li>Técnica em Edificações <div class="progress"><div class="progress-bar bg-success" style="width:100%">100%</div></div></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="container mt-4">
+        <h2 class="text-center text-secondary">Habilidades</h2>
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <div class="card p-3">
+                    <h5 class="card-title text-center text-danger">Tecnologia</h5>
+                    <ul>
+                        <li>Desenvolvimento Web (HTML, CSS, JavaScript, Bootstrap)</li>
+                        <li>Banco de Dados (MySQL, PostgreSQL)</li>
+                        <li>Programação (Python, Java, C#)</li>
+                        <li>UX/UI Design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card p-3">
+                    <h5 class="card-title text-center text-danger">Edificações</h5>
+                    <ul>
+                        <li>Leitura e Interpretação de Projetos</li>
+                        <li>AutoCAD e Revit</li>
+                        <li>Gestão de Obras</li>
+                        <li>Orçamentos e Planejamento</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mt-5">
+        <h2 class="text-center text-secondary">Entre em Contato</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="contact-form">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Seu Nome</label>
+                            <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Seu Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Assunto</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Digite o assunto">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Digite sua mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger w-100">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
